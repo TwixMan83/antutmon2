@@ -21,5 +21,6 @@ import {HeartComponent} from './heart.component'
   directives: [HeartComponent]
 })
 export class TweetComponent{
-
+  
+  getTweets();
 }
