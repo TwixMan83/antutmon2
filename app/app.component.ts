@@ -5,6 +5,7 @@ import {AutoGrowDirective} from './auto-grow.directive'
 import {FavoriteComponent} from './favorite.component'
 import {HeartComponent} from './heart.component'
 import {VoterComponent} from './voter.component'
+import {TweetComponent} from './tweet.component'
 
 @Component({
     selector: 'my-app',
@@ -21,8 +22,9 @@ import {VoterComponent} from './voter.component'
     <fav-icon (change)="onFavoriteChange($event)"></fav-icon>
     <heart></heart>
     <voter></voter>
+    <tweet></tweet>
     `,
-    directives: [CoursesComponent, AuthorComponent, AutoGrowDirective, FavoriteComponent, HeartComponent, VoterComponent]
+    directives: [CoursesComponent, AuthorComponent, AutoGrowDirective, FavoriteComponent, HeartComponent, VoterComponent, TweetComponent]
 
 })
 export class AppComponent { 
