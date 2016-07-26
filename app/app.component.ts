@@ -6,7 +6,7 @@ import {FavoriteComponent} from './favorite.component'
 import {HeartComponent} from './heart.component'
 import {VoterComponent} from './voter.component'
 import {TweetComponent} from './tweet.component'
-
+import {ContactFormComponent} from './contact-form.component'
 @Component({
     selector: 'my-app',
     template: /*
@@ -24,11 +24,11 @@ import {TweetComponent} from './tweet.component'
     <voter></voter>
     <tweet></tweet>*/
     `
-    
+    <contact-form></contact-form>
 
     `
     ,
-    directives: [CoursesComponent, AuthorComponent, AutoGrowDirective, FavoriteComponent, HeartComponent, VoterComponent, TweetComponent]
+    directives: [CoursesComponent, AuthorComponent, AutoGrowDirective, FavoriteComponent, HeartComponent, VoterComponent, TweetComponent, ContactFormComponent]
 
 })
 export class AppComponent { 

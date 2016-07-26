@@ -1,4 +1,4 @@
-System.register(['angular2/core', './courses.component', './author.component', './auto-grow.directive', './favorite.component', './heart.component', './voter.component', './tweet.component'], function(exports_1, context_1) {
+System.register(['angular2/core', './courses.component', './author.component', './auto-grow.directive', './favorite.component', './heart.component', './voter.component', './tweet.component', './contact-form.component'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -10,7 +10,7 @@ System.register(['angular2/core', './courses.component', './author.component', '
     var __metadata = (this && this.__metadata) || function (k, v) {
         if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
     };
-    var core_1, courses_component_1, author_component_1, auto_grow_directive_1, favorite_component_1, heart_component_1, voter_component_1, tweet_component_1;
+    var core_1, courses_component_1, author_component_1, auto_grow_directive_1, favorite_component_1, heart_component_1, voter_component_1, tweet_component_1, contact_form_component_1;
     var AppComponent;
     return {
         setters:[
@@ -37,6 +37,9 @@ System.register(['angular2/core', './courses.component', './author.component', '
             },
             function (tweet_component_1_1) {
                 tweet_component_1 = tweet_component_1_1;
+            },
+            function (contact_form_component_1_1) {
+                contact_form_component_1 = contact_form_component_1_1;
             }],
         execute: function() {
             AppComponent = (function () {
@@ -66,8 +69,8 @@ System.register(['angular2/core', './courses.component', './author.component', '
                         <fav-icon (change)="onFavoriteChange($event)"></fav-icon>
                         <heart></heart>
                         <voter></voter>
-                        <tweet></tweet>*/ "\n   \n    ",
-                        directives: [courses_component_1.CoursesComponent, author_component_1.AuthorComponent, auto_grow_directive_1.AutoGrowDirective, favorite_component_1.FavoriteComponent, heart_component_1.HeartComponent, voter_component_1.VoterComponent, tweet_component_1.TweetComponent]
+                        <tweet></tweet>*/ "\n    <contact-form></contact-form>\n\n    ",
+                        directives: [courses_component_1.CoursesComponent, author_component_1.AuthorComponent, auto_grow_directive_1.AutoGrowDirective, favorite_component_1.FavoriteComponent, heart_component_1.HeartComponent, voter_component_1.VoterComponent, tweet_component_1.TweetComponent, contact_form_component_1.ContactFormComponent]
                     }), 
                     __metadata('design:paramtypes', [])
                 ], AppComponent);
