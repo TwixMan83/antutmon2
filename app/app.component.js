@@ -53,7 +53,20 @@ System.register(['angular2/core', './courses.component', './author.component', '
                 AppComponent = __decorate([
                     core_1.Component({
                         selector: 'my-app',
-                        template: "\n    <h1>My First Angular 2 App</h1>\n    <courses></courses>\n    <author></author>\n    <input type=\"text\"  [value]=\"title\" (input)=\"title = $event.target.value\" />\n    <input type=\"button\" (click)=\"title = ''\" value=\"Clear\" />\n    Preview: {{ title }}\n    \n    <input type=\"text\" [(ngModel)]=\"title\" />\n    <fav-icon [isFavorite]=\"post.isFavorite\"></fav-icon>\n    <fav-icon (change)=\"onFavoriteChange($event)\"></fav-icon>\n    <heart></heart>\n    <voter></voter>\n    <tweet></tweet>\n    ",
+                        template: /*
+                        <h1>My First Angular 2 App</h1>
+                        <courses></courses>
+                        <author></author>
+                        <input type="text"  [value]="title" (input)="title = $event.target.value" />
+                        <input type="button" (click)="title = ''" value="Clear" />
+                        Preview: {{ title }}
+                        
+                        <input type="text" [(ngModel)]="title" />
+                        <fav-icon [isFavorite]="post.isFavorite"></fav-icon>
+                        <fav-icon (change)="onFavoriteChange($event)"></fav-icon>
+                        <heart></heart>
+                        <voter></voter>
+                        <tweet></tweet>*/ "\n   \n    ",
                         directives: [courses_component_1.CoursesComponent, author_component_1.AuthorComponent, auto_grow_directive_1.AutoGrowDirective, favorite_component_1.FavoriteComponent, heart_component_1.HeartComponent, voter_component_1.VoterComponent, tweet_component_1.TweetComponent]
                     }), 
                     __metadata('design:paramtypes', [])

@@ -9,15 +9,17 @@ System.register([], function(exports_1, context_1) {
                 function TweetService() {
                 }
                 TweetService.prototype.getTweets = function () {
-                    return ["Tweet1 ", {
+                    return [
+                        {
                             author: "blubb",
-                            twitterhandle: "blah",
+                            twitterhandle: "@blah",
                             tweet: "testtext",
-                        },
-                        "Tweet2",
-                        "Tweet3"
+                            totalLikes: 5,
+                            iLike: true,
+                        }
                     ];
                 };
+                ;
                 return TweetService;
             }());
             exports_1("TweetService", TweetService);

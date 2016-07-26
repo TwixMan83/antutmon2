@@ -1,14 +1,16 @@
 import {Component} from 'angular2/core'
 
 export class TweetService{
-    getTweets() : string[] {
-    return  [  "Tweet1 "{
+    getTweets()  {
+    return  [  
+        {
         author: "blubb"
-        twitterhandle: "blah",
-        tweet: "testtext" ,
+        twitterhandle: "@blah",
+        tweet: "testtext"
+        totalLikes: 5,
+        iLike: true ,
         }
-        "Tweet2",
-        "Tweet3"
+       
         
-    ]}
+    ]};
 }
